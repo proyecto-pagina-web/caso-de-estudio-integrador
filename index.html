@@ -1,0 +1,73 @@
+<!DOCTYPE html>   
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>|</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/formulario_estilo.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/boot_style.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>                                     
+<body class="body">
+<div class="container mt-3">
+ 
+<h1 class="text-warning">decoremos #1 del color</h1>
+
+<img src="imagenes/pintura.jpg" class="img-thumbnail" width="600" height="200">
+
+<img src="imagenes/usuarios.jpg" class="img-thumbnail" width="100" height="80">
+  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#register">
+    Registrar usuarios
+  </button>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="register">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+<form action="login.html">
+
+
+
+<label class="label">N° identificacion: </label>	
+<input class="form-control"type="number" name="id_usu" required placeholder="digite su ID"> 
+
+<label class="label2">primer nombre: </label>	 
+<input class="form-control"type="text" name="primer nombre" required placeholder="digite su primer nombre">
+
+
+<label class="label">segundo nombre: </label>	
+<input class="form-control"type="text" name="segundo nombre"placeholder="digite su segundo nombre">
+
+<label class="label2">primer apellido: </label>	
+<input class="form-control"type="text" name="primer apellido" required placeholder="digite su primer apellido">
+
+<label class="label">segundo ápellido: </label>	
+<input class="form-control"type="text" name="segundo apellido"placeholder="digite su segundo apellido"><br><br>
+
+<input type="submit" value="registrar "class="btn btn-success">
+
+
+</center>	
+
+</form>
+
+      </div>
+
+     
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
